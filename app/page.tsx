@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="lg:flex w-[1500px] mx-auto flex-col text-white">
+      <div className="lg:flex w-[1500px] mx-auto flex-col text-white overflow-hidden">
         <div>
           <Image
             src={"/bg.jpg"}
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="px-8 flex flex-col items-start mt-8 text-white">
+        <div className="px-8 flex flex-col items-start mt-4 text-white">
           <h1 className="font-bold text-xl">Upcoming</h1>
           <div className="flex flex-col w-full">
             <div className="border-gray-800 border rounded-2xl mt-2 bg-gray-800/10 backdrop-blur-md md:grid md:grid-cols-2">
@@ -134,7 +134,7 @@ export default function Home() {
                   alt="logo"
                   width={400}
                   height={400}
-                  className="object-cover rounded-l-2xl w-[100px] md:w-[200px] h-[150px]"
+                  className="object-cover rounded-l-2xl w-[100px] md:w-[200px] md:h-[150px] h-auto"
                 />
                 <div className="flex flex-col md:text-start px-4 m-0 col-span-2 mt-8">
                   <h1 className="md:text-4xl text-lg font-extrabold">
