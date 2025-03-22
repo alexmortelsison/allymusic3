@@ -159,7 +159,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="sticky md:absolute bottom-0 w-screen flex items-center justify-center text-center bg-gray-100/10 backdrop-blur-md py-8 lg:hidden my-4 md:rounded-lg rounded-full">
+      <div className="sticky md:absolute bottom-0 w-screen flex items-center justify-center text-center bg-gray-800/20 backdrop-blur-lg py-8 lg:hidden my-4 md:rounded-lg rounded-full shadow-xs shadow-gray-500">
         <MobileNavbar />
       </div>
     </>
