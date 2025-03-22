@@ -1,5 +1,4 @@
 import { AiFillPlayCircle } from "react-icons/ai";
-import { AiOutlineCaretRight } from "react-icons/ai";
 import Image from "next/image";
 import MobileNavbar from "./components/MobileNavbar";
 import Link from "next/link";
@@ -7,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="lg:flex w-[1500px] mx-auto flex-col">
+      <div className="lg:flex w-[1500px] mx-auto flex-col text-white">
         <div>
           <Image
             src={"/bg.jpg"}
@@ -33,14 +32,6 @@ export default function Home() {
           />
         </div>
         <div className="text-center lg:pl-24 mt-20 px-16 hidden lg:flex">
-          <div className="flex justify-start col-span-3">
-            <AiOutlineCaretRight />
-            <AiOutlineCaretRight />
-            <AiOutlineCaretRight />
-            <AiOutlineCaretRight />
-            <AiOutlineCaretRight />
-            <AiOutlineCaretRight />
-          </div>
           <div className="flex text-start space-x-4">
             <AiFillPlayCircle size={40} className="mt-12" />
             <div className="flex flex-col mt-4">
@@ -100,7 +91,7 @@ export default function Home() {
             className="object-cover pl-4"
           />
         </Link>
-        <div className="px-8 flex flex-col items-start">
+        <div className="px-8 flex flex-col items-start text-white">
           <div className="flex flex-col items-start tracking-tighter">
             <h1 className="text-4xl md:text-7xl font-extrabold">
               We bring you the very best in music.
@@ -133,7 +124,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="px-8 flex flex-col items-start mt-8">
+        <div className="px-8 flex flex-col items-start mt-8 text-white">
           <h1 className="font-bold text-xl">Upcoming</h1>
           <div className="flex flex-col w-full">
             <div className="border-gray-800 border rounded-2xl mt-2 bg-gray-800/10 backdrop-blur-md md:grid md:grid-cols-2">
