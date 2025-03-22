@@ -3,7 +3,7 @@ import MobileNavbar from "../components/MobileNavbar";
 export default function AboutPage() {
   return (
     <>
-      <div className="lg:flex lg:w-[1500px] lg:mx-auto flex-col text-white px-2">
+      <div className="lg:flex lg:w-[1500px] lg:mx-auto flex-col text-white px-2 select-none">
         <div>
           <Image
             src={"/bg.jpg"}
@@ -12,7 +12,7 @@ export default function AboutPage() {
             className="-z-50 brightness-30 object-cover"
           />
         </div>
-        <div className="lg:grid lg:grid-cols-3 max-w-[1000px] mt-24">
+        <div className="lg:grid lg:grid-cols-3 max-w-[1000px] md:mt-24 mt-8">
           <div className="col-span-2 place-items-center">
             <div className="border rounded-2xl bg-gray-800/20 backdrop-blur-xs">
               <Image
@@ -20,16 +20,16 @@ export default function AboutPage() {
                 alt=""
                 width={800}
                 height={800}
-                className="w-80 h-120 object-cover rounded-xl hidden lg:block"
+                className="md:w-80 md:h-120 object-cover rounded-xl hidden lg:block"
               />
             </div>
             <div></div>
           </div>
           <div className="lg:col-span-1 sm:flex flex flex-col text-center lg:text-start px-4 md:px-24">
-            <h1 className="text-7xl font-extrabold whitespace-nowrap text-pink-500">
+            <h1 className="md:text-7xl text-3xl font-extrabold whitespace-nowrap text-pink-500">
               About Us
             </h1>
-            <p className="lg:w-[700px] mt-8 md:text-lg flex text-center lg:text-start">
+            <p className="lg:w-[700px] mt-4 md:text-lg flex text-center lg:text-start text-sm">
               Ally Music is the fourth company within the renowned Ally Group, a
               powerhouse of innovation and creativity. As a leading music
               production company, Ally Music is dedicated to bringing talented
@@ -54,7 +54,7 @@ export default function AboutPage() {
                 alt=""
                 width={800}
                 height={800}
-                className="w-60 h-60 object-cover rounded-xl lg:hidden"
+                className="md:w-60 md:h-60 w-24 h-24 object-cover rounded-xl lg:hidden"
               />
             </div>
           </div>
