@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function ContactPage() {
   return (
     <>
-      <div className="lg:flex lg:w-[1500px] lg:mx-auto flex-col text-white px-2">
+      <div className="lg:flex lg:w-[1500px] h-[100vh] lg:mx-auto flex-col text-white ">
         <div>
           <Image
             src={"/bg.jpg"}
@@ -19,10 +19,16 @@ export default function ContactPage() {
             className="-z-50 brightness-30 object-cover"
           />
         </div>
-        <div className="mt-16 lg:mt-8 max-w-7xl mx-auto h-[700px] lg:h-[700px] w-[80%] lg:w-[70%] bg-gray-800/20 backdrop-blur-md rounded-2xl">
+        <div className="mt-2 lg:mt-8 max-w-7xl mx-auto h-[500px] lg:h-[700px] w-[80%] lg:w-[70%] bg-gray-800/20 backdrop-blur-md rounded-2xl">
           <div className="lg:grid grid-cols-2 p-8">
             <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
-              <Image src={"/logo.png"} alt="logo" width={200} height={200} />
+              <Image
+                src={"/logo.png"}
+                alt="logo"
+                width={200}
+                height={200}
+                className="object-cover w-20 h-20"
+              />
               <div className="hidden lg:flex items-center space-x-4">
                 <AiFillMail size={40} />
                 <p>info@allygroupnyc.com</p>
