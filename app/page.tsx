@@ -86,8 +86,8 @@ export default function Home() {
           <Image
             src={"/logo.png"}
             alt="logo"
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             className="object-cover pl-4"
           />
         </Link>
@@ -96,7 +96,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-7xl font-extrabold">
               We bring you the very best in music.
             </h1>
-            <p className="text-gray-400 mt-2 mb-12 mb-24 text-lg md:text-3xl font-bold">
+            <p className="text-gray-400 mt-2 mb-4 md:mb-18 text-lg md:text-3xl font-bold">
               Live and unforgettable.
             </p>
           </div>
