@@ -143,7 +143,7 @@ export default function Home() {
                   <p className="text-sm font-bold md:whitespace-nowrap">
                     New York, NY
                   </p>
-                  <p className="text-sm font-bold">June 2025</p>
+                  <p className="text-xs font-bold">June 2025</p>
                 </div>
               </div>
             </div>
