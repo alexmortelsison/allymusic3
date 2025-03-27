@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         <div className="pl-24 hidden lg:flex">
           <button className="mt-8 justify-start border py-4 rounded-full font-bold text-lg cursor-pointer bg-red-500 w-1/3">
-            SOLD OUT
+            SOLDY OUT
           </button>
         </div>
         <div className="mt-8 w-[1300px] mx-auto hidden lg:flex">
